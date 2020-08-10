@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra năm nhuận</title>
+</head>
+<body>
+    <script>
+        let namnhuan = parseInt(prompt("Enter a year :"));
+        if (namnhuan%4 == 0){
+            if (namnhuan%100 == 0 && namnhuan%400 != 0){
+                alert("Năm ko nhuận")
+            }else {
+                alert("Năm nhuận")
+            }
+        }else {
+                alert("Năm ko nhuận")
+        }
+    </script>
+</body>
+</html>
